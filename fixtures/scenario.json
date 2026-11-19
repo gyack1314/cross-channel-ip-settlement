@@ -66,9 +66,6 @@
       "closed_at": "2026-12-02"
     }
   ],
-  "facts": {
-    "channels": 3,
-    "orders": 9,
-    "settlement_files": 4
-  }
+  "facts": {},
+  "observed_record_count": 6
 }
