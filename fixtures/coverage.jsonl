@@ -1,0 +1,4 @@
+{"row_id":"coverage:000001","channel":"popup","period":"2026-11","expected_sales_batches":["S1"],"sales_batches":["S1"],"settlement_status":"complete","available_batch":1}
+{"row_id":"coverage:000002","channel":"direct","period":"2026-11","expected_sales_batches":["S1"],"sales_batches":["S1"],"settlement_status":"complete","available_batch":1}
+{"row_id":"coverage:000003","channel":"partner","period":"2026-11","expected_sales_batches":["S1"],"sales_batches":["S1"],"settlement_status":"missing","available_batch":1}
+{"row_id":"coverage:000004","channel":"partner","period":"2026-11","expected_sales_batches":["S1"],"sales_batches":["S1"],"settlement_status":"complete","available_batch":3}

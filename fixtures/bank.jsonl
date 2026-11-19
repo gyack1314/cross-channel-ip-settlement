@@ -1,0 +1,5 @@
+{"row_id":"bank:000001","bank_id":"B1","merchant_alias":"文化收款","currency":"CNY","amount_minor":10000,"day":"2026-11-23"}
+{"row_id":"bank:000002","bank_id":"B2","merchant_alias":"文化收款","currency":"CNY","amount_minor":10000,"day":"2026-11-23"}
+{"row_id":"bank:000003","bank_id":"B3","merchant_alias":"文化收款","currency":"CNY","amount_minor":6000,"day":"2026-11-24"}
+{"row_id":"bank:000004","bank_id":"B4","merchant_alias":"文化收款","currency":"CNY","amount_minor":8000,"day":"2026-11-24"}
+{"row_id":"bank:000005","bank_id":"B5","merchant_alias":"海外收款","currency":"CNY","amount_minor":72000,"day":"2026-11-24"}

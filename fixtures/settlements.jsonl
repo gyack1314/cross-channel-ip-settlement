@@ -1,0 +1,6 @@
+{"row_id":"settlements:000001","settlement_id":"T1","revision":1,"channel":"popup","merchant":"M1","currency":"CNY","gross_minor":10300,"fee_minor":300,"refund_ids":[],"available_batch":1}
+{"row_id":"settlements:000002","settlement_id":"T2","revision":1,"channel":"direct","merchant":"M1","currency":"CNY","gross_minor":10500,"fee_minor":500,"refund_ids":[],"available_batch":1}
+{"row_id":"settlements:000003","settlement_id":"T3","revision":1,"channel":"partner","merchant":"M1","currency":"CNY","gross_minor":16000,"fee_minor":1000,"refund_ids":["RF1"],"available_batch":1}
+{"row_id":"settlements:000004","settlement_id":"T4","revision":1,"channel":"partner","merchant":"M2","currency":"USD","gross_minor":10000,"fee_minor":0,"refund_ids":[],"available_batch":1}
+{"row_id":"settlements:000005","settlement_id":"T3","revision":2,"channel":"partner","merchant":"M1","currency":"CNY","gross_minor":16000,"fee_minor":1200,"refund_ids":["RF1"],"available_batch":2}
+{"row_id":"settlements:000006","settlement_id":"T3","revision":3,"channel":"partner","merchant":"M1","currency":"CNY","gross_minor":16000,"fee_minor":1000,"refund_ids":["RF1"],"available_batch":3}

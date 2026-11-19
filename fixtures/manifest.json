@@ -1,0 +1,128 @@
+{
+  "schema_version": 2,
+  "synthetic": true,
+  "project": "多渠道文创回款的组合匹配与关账差额解释",
+  "tables": [
+    {
+      "file": "fixtures/sales.jsonl",
+      "rows": 30,
+      "sha256": "18cc24a643b860f98c10df839adfe88fb5c09056e51664cd13e5d6c82aae5fa3",
+      "columns": [
+        "channel",
+        "currency",
+        "day",
+        "gross_minor",
+        "merchant",
+        "order_id",
+        "row_id"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/settlements.jsonl",
+      "rows": 6,
+      "sha256": "adbaeb0dfdb6ea35fbff8081eab9f85655320844bf5eeac9e1da721cbaf7cdf7",
+      "columns": [
+        "available_batch",
+        "channel",
+        "currency",
+        "fee_minor",
+        "gross_minor",
+        "merchant",
+        "refund_ids",
+        "revision",
+        "row_id",
+        "settlement_id"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/bank.jsonl",
+      "rows": 5,
+      "sha256": "e205a505fc560b1cf3a02f8be6da4e122596097969795d4be1d749be7f6e0577",
+      "columns": [
+        "amount_minor",
+        "bank_id",
+        "currency",
+        "day",
+        "merchant_alias",
+        "row_id"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/refunds.jsonl",
+      "rows": 1,
+      "sha256": "01cfcb67813356605f352279a937c8cb17442b8cedbe1d0a96eb3c924740d682",
+      "columns": [
+        "amount_minor",
+        "available_batch",
+        "channel",
+        "currency",
+        "order_id",
+        "refund_id",
+        "row_id"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/merchant_aliases.jsonl",
+      "rows": 2,
+      "sha256": "a88f9aa480814acd4c7739c90ddc0ace445b1d3b825e8fea2ab8c40ae00c5f7c",
+      "columns": [
+        "alias",
+        "from_day",
+        "merchant",
+        "row_id",
+        "to_day"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/currency_conversions.jsonl",
+      "rows": 1,
+      "sha256": "eb84ce60c0a55c677367bbb50128b417f686da9cbc6814eb79cf51033c599469",
+      "columns": [
+        "amount_from_minor",
+        "amount_to_minor",
+        "available_batch",
+        "conversion_id",
+        "currency_from",
+        "currency_to",
+        "row_id",
+        "settlement_id"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/coverage.jsonl",
+      "rows": 4,
+      "sha256": "5f305142e2a4146f4281f783e2be5fbf76a305bb12c796f82565e15d9ef45d1f",
+      "columns": [
+        "available_batch",
+        "channel",
+        "expected_sales_batches",
+        "period",
+        "row_id",
+        "sales_batches",
+        "settlement_status"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    }
+  ],
+  "scope": "本地合成的原始来源观察、业务政策与操作请求。"
+}
